@@ -1,0 +1,164 @@
+﻿{
+    "music": "track1",
+    "image": "gridblue",
+    "levels": [
+        {
+            "title": "Point and click",
+            "mode": "filled",
+            "hint": {
+                "x": 0,
+                "y":  6
+            },
+            "targets": [
+                {
+                    "x": 23,
+                    "y": 6
+                }
+            ],
+            "guns": [
+                {
+                    "x": 0,
+                    "y": 6,
+                    "dir": "right"
+                }
+            ],
+            "gaps": [
+                {
+                    "fromX": 0,
+                    "toX": 23,
+                    "fromY": 6,
+                    "toY": 6
+                }
+            ]
+        },
+        {
+            "title": "Make Way!",
+            "hint": {
+                "x": 10,
+                "y": 6
+            },
+            "targets": [
+                {
+                    "x": 23,
+                    "y": 6
+                }
+            ],
+            "guns": [
+                {
+                    "x": 0,
+                    "y": 6,
+                    "dir": "right"
+                }
+            ],
+            "barriers": [
+                {
+                    "x": 10,
+                    "y": 6,
+                    "dir": "v"
+                }
+            ]
+        },
+        {
+            "title": "Boing",
+            "hint": {
+                "x": 14,
+                "y": 6
+            },
+            "targets": [
+                {
+                    "x": 14,
+                    "y": 0
+                }
+            ],
+            "guns": [
+                {
+                    "x": 0,
+                    "y": 6,
+                    "dir": "right"
+                }
+            ],
+            "mirrors": [
+                {
+                    "x": 14,
+                    "y": 6,
+                    "dir": "bl"
+                }
+            ]
+        },
+        {
+            "title": "Shove off",
+            "hint": {
+                "x": 2,
+                "y": 0
+            },
+            "targets": [
+                {
+                    "x": 23,
+                    "y": 6
+                }
+            ],
+            "guns": [
+                {
+                    "x": 0,
+                    "y": 6,
+                    "dir": "right"
+                },
+                {
+                    "x": 2,
+                    "y": 0,
+                    "dir": "down"
+                }
+            ],
+            "blocks": [
+                {
+                    "x": 2,
+                    "y": 6
+                }
+            ]
+        },
+        {
+            "title": "Boom boom",
+            "targets": [
+                {
+                    "x": 13,
+                    "y": 6
+                },
+                {
+                    "x": 23,
+                    "y": 6
+                }
+            ],
+            "guns": [
+                {
+                    "x": 0,
+                    "y": 6,
+                    "dir": "right"
+                }
+            ]
+        },
+        {
+            "title": "My god...",
+            "stars": [
+                {
+                    "x": 13,
+                    "y": 6
+                },
+                {
+                    "x": 23,
+                    "y": 6
+                },
+                {
+                    "x": 6,
+                    "y": 6
+                }
+            ],
+            "guns": [
+                {
+                    "x": 0,
+                    "y": 6,
+                    "dir": "right"
+                }
+            ]
+        }
+    ]
+}
